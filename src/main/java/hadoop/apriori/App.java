@@ -14,11 +14,11 @@ public class App
     public static void main( String[] args )
     {
     	String inputFile= "results/part-00000";
-    	String outputFolder = "apriori-result-L1";
-    	Flow aprioriFlow = AprioriFlowL1.createFlow(inputFile, outputFolder);
+    	String outputFolderL1 = "apriori-result-L1";
+    	Flow aprioriFlow = AprioriFlowL1.createFlow(inputFile, outputFolderL1);
     	aprioriFlow.complete();
-    	outputFolder = "apriori-result-L2";
-    	Flow aprioriFlow2 = AprioriFlowL2.createFlow(inputFile, outputFolder);
+    	String outputFolderL2 = "apriori-result-L2";
+    	Flow aprioriFlow2 = AprioriFlowL2.createFlow(inputFile,outputFolderL1, outputFolderL2);
     	aprioriFlow2.complete();
     }
 }

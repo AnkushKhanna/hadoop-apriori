@@ -1,1 +1,10 @@
+hadoop/apriori/aggregator/FrequentItem$Context.class
+hadoop/apriori/flow/AprioriFlowL2.class
 hadoop/apriori/AppTest.class
+hadoop/apriori/aggregator/FrequentItem.class
+hadoop/apriori/aggregator/ProductId$Context.class
+hadoop/apriori/flow/AprioriFlowL1.class
+hadoop/apriori/functions/CreateL1.class
+hadoop/apriori/functions/CreateL2.class
+hadoop/apriori/aggregator/ProductId.class
+hadoop/apriori/App.class
